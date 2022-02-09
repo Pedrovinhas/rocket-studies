@@ -156,6 +156,6 @@
 
 ## Screenshot Projeto
 
-![Rocket-Twitter](/images/rockett.png)
+![Rocket-Twitter](https://github.com/Pedrovinhas/rocket-studies/blob/master/css/Flex-box/images/rockett.png)
 
 ---

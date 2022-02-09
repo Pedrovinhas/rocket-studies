@@ -1,7 +1,8 @@
-# rocket-studies
-📁 | 🚀 Repositório com diversas aulas e cursos da RocketSeat.
+# 📁 | 🚀 Rocket-Studies
+ Repositório com diversas aulas e cursos da RocketSeat, disponíveis no YouTube, Lives e em maratonas. Todos os conteúdos são 100% gratuitos e serão agrupados conforme a indicação abaixo.
 
 ## Agrupamentos
+Divide-se em **fonte**, por onde foi consumido as aulas e **tecnologia**, qual(is) foram a(s) tecnologia(s) abordada(s).
 
 ### ⛲ Por fonte
 

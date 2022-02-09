@@ -10,3 +10,90 @@ body {
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
 }
+
+input, button {
+    outline: 0;
+}
+
+.content {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding:0 30px;
+}
+
+header#main-header {
+    height: 46px;
+    background-color: #fff;
+
+    box-shadow: 0 1px 1px rgba(0,0,0,0.25);
+}
+
+header#main-header .content {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+header#main-header nav ul {
+    display:flex;
+    list-style: none;
+}
+
+header#main-header nav ul li {
+    display: flex;
+    align-items: center;
+     
+    font-size: 13px;
+    color: #667580;
+    font-weight: bold; 
+
+    margin-left: 30px;
+} 
+
+header#main-header nav ul li:first-child {
+    margin: 0;
+}
+
+header#main-header nav ul li img {
+    margin-right: 8px;
+}
+
+header#main-header div.side {
+    display: flex;
+}
+
+header#main-header div.side input {
+    border: 1px solid #E6ECF0;
+    height: 34px;
+    padding: 0 30px 0 12px;
+    width: 220px;
+
+    border-radius: 16px;
+    color: #667581;
+    font-size: 12px;
+    background:#F5F8FA url('/images/search.svg') no-repeat 200px center;
+}
+
+header#main-header div.side img {
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+
+    margin: 0 15px;
+}
+
+header#main-header div.side button {
+    background-color: #3bb9e3; 
+    width: 90px;
+    height: 34px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    border: 0;
+    border-radius: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

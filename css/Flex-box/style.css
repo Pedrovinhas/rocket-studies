@@ -100,7 +100,7 @@ header#main-header div.side button {
     justify-content: center;
 }
 
-div .banner {
+div.banner{
     height: 380px;
     width: 100%;
     background: #3bb9e3;

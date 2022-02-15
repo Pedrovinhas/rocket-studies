@@ -65,6 +65,7 @@ Divide-se em **fonte**, por onde foi consumido as aulas e **tecnologia**, qual(i
             <a href="./discover/guias-estelares/guia-estelar-html5"> Guia Estelar de HTML5 </a>
             </td>
             <td>
+              <a href=""> Flex-Box </a>
             </td>
             <td>
             </td>
@@ -80,6 +81,7 @@ Divide-se em **fonte**, por onde foi consumido as aulas e **tecnologia**, qual(i
             <td>
             </td>
             <td>
+              <a href="https://github.com/Pedrovinhas/rocket-studies/tree/master/css/Grid"> Desvendando o CSS Grid na prática  </a>
             </td>
             <td width=20%;>
                 <a href="./discover/guias-estelares/guia-estelar-js"> Guia Estelar de JavaScript </a>

@@ -1,9 +1,10 @@
-# rocket-studies
-📁 | 🚀 Repositório com diversas aulas e cursos da RocketSeat.
+# 📁 | 🚀 Rocket-Studies
+ Repositório com diversas aulas e cursos da RocketSeat, disponíveis no YouTube, Lives e em maratonas. Todos os conteúdos são 100% gratuitos e serão agrupados conforme a indicação abaixo.
 
-## Agrupamentos
+## 📑 Agrupamentos
+Divide-se em **fonte**, por onde foi consumido as aulas e **tecnologia**, qual(is) foram a(s) tecnologia(s) abordada(s).
 
-### ⛲ Por fonte
+###  Por fonte
 
 <table> 
     <thead> 
@@ -48,7 +49,7 @@
     </tbody>
 </table>
 
-### 👩‍💻 Por Tecnologia
+### Por Tecnologia
 
 <table> 
     <thead> 
@@ -64,6 +65,7 @@
             <a href="./discover/guias-estelares/guia-estelar-html5"> Guia Estelar de HTML5 </a>
             </td>
             <td>
+              <a href=""> Flex-Box </a>
             </td>
             <td>
             </td>
@@ -79,6 +81,7 @@
             <td>
             </td>
             <td>
+              <a href="https://github.com/Pedrovinhas/rocket-studies/tree/master/css/Grid"> Desvendando o CSS Grid na prática  </a>
             </td>
             <td width=20%;>
                 <a href="./discover/guias-estelares/guia-estelar-js"> Guia Estelar de JavaScript </a>

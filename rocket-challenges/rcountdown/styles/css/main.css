@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+.image-header {
+  background-image: url("../../../images/top-image.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 20vh;
+}
+
+.section {
+  margin: 0 auto;
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section .box-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 38rem;
+  width: 49.4rem;
+  margin-right: 8.2rem;
+}
+
+.section .box-content h1 {
+  color: var(--purple);
+  font-size: 3.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  font-weight: 700;
+}
+
+.section .box-content .countdown {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 7.2rem;
+  color: var(--black);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 2.4rem;
+  width: 100%;
+}
+
+.section .box-content .countdown .countdown-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.section .box-content .countdown .countdown-box p {
+  margin-right: 2.4rem;
+  text-align: center;
+  width: 50%;
+  font-weight: 300;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  color: var(--light-grey);
+}
+
+.section .box-content .countdown .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.section .box-content .countdown .container > span {
+  margin-right: 1rem;
+}
+
+.section .box-content .countdown .container span {
+  font-weight: 400;
+}
+
+.section .launch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 2.8rem;
+  height: 9.8rem;
+}
+
+.section .launch p {
+  font-size: 1.4rem;
+  color: var(--text-color);
+}
+
+.section .launch .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: center;
+  margin-top: 1.6rem;
+}
+
+.section .launch .buttons button {
+  width: 16rem;
+  height: 4.6rem;
+  background-color: var(--purple);
+  border: none;
+  border-radius: 1rem;
+  color: white;
+  margin-top: 3rem;
+  font-weight: 400;
+  font-size: 1.6rem;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.section .launch .buttons button:hover {
+  background-color: #3be67d;
+}
+
+.section .launch .buttons .launch-abort:hover {
+  background-color: #e64f3b;
+}
+
+.image-footer {
+  background-image: url("../../../images/bottom-image.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 30vh;
+}
+
+:root {
+  --black: #4D4C59;
+  --purple: #6C63FF;
+  --light-grey: #C8C8C8;
+  --text-color: #9C9AB6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --black: #4D4C59;
+  --purple: #6C63FF;
+  --light-grey: #C8C8C8;
+  --text-color: #9C9AB6;
+}
+/*# sourceMappingURL=main.css.map */

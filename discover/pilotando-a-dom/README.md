@@ -1,6 +1,6 @@
 # Challenges
 
-## Desafio do Modal
+## ✔ Desafio do Modal
 
 ### **Objetivo**
 

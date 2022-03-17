@@ -14,6 +14,8 @@ const toast = document.querySelector(".toast"),
 
 const date = new Date("01-06-2023");
 
+let timer1, timer2;
+
 function countDown() {
   const now = new Date().getTime();
   const launchDate = (date - now) / 1000;

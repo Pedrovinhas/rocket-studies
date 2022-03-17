@@ -162,6 +162,10 @@
   background-color: #e64f3b;
 }
 
+.section .launch .buttons .launch-resume {
+  display: none;
+}
+
 .image-footer {
   background-image: url("../../../images/bottom-image.svg");
   background-repeat: no-repeat;

@@ -27,6 +27,9 @@ Você pode consultar o design do desafio através do link Figma.
 - [ ] Responsividade para todos os dispositivos
 
 ### 🆕 Features
+- [X] Adicionada funcionalidade de criar um countdown regressivo de menor tempo
+- [X] Adicionado botão de pausar countdown
+- [X] Adicionado botão de resume countdown
 - [ ] Toast para quando o foguete for lançado
 - [ ] Toast com mensagem para missão cancelada
 

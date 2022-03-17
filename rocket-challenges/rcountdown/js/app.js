@@ -6,6 +6,12 @@ const rushBtn = document.querySelector(".launch-button");
 const pauseBtn = document.querySelector(".launch-abort");
 const resumeBtn = document.querySelector(".launch-resume");
 
+const toast = document.querySelector(".toast"),
+      closeIcon = document.querySelector(".close"),
+      progress = document.querySelector(".progress"),
+      toastTitle = document.querySelector(".text-1"),
+      toastSpan = document.querySelector(".text-2")
+
 const date = new Date("01-06-2023");
 
 function countDown() {
@@ -30,12 +36,19 @@ function countDownRush() {
   hours.innerHTML = "00";
   minutes.innerHTML = '00';
   
+  activateToast();
+  activateCloseBtn()
+
+  toastTitle.innerHTML = 'Rush mode actived!'
+  toastSpan.innerHTML = 'Please fasten your seat belt! ⛑'
+  
   var rushSeconds = 15
 
   var timeLeft = setInterval ( () => {
     if(rushSeconds <= 0) {
         clearInterval(timeLeft)
     }
+    pauseBtn.setAttribute('disabled', 'disabled')
     seconds.innerHTML = (rushSeconds).toString().padStart(2, 0);   
     rushSeconds -= 1
     console.log(rushSeconds)
@@ -50,7 +63,13 @@ pauseBtn.addEventListener("click", () => {
     clearInterval(timer);
     pauseBtn.style.display = 'none';
     resumeBtn.style.display = 'block';
-  
+    activateToast();
+    activateCloseBtn()
+
+    toastTitle.innerHTML = 'Oh no! 😢'
+    toastSpan.innerHTML = 'Houston we got a problem!'
+    
+   
   
 });
 
@@ -58,9 +77,39 @@ resumeBtn.addEventListener("click", () => {
     timer = setInterval(countDown, 1000);
     pauseBtn.style.display = 'block'
     resumeBtn.style.display = 'none';
+    activateToast();
+    activateCloseBtn()
+    toastTitle.innerHTML = 'Yeeeeah!'
+    toastSpan.innerHTML = 'Rocket has no reverse 🚀'
+
 })
 
 rushBtn.addEventListener("click", countDownRush);
 
 
 timer = setInterval(countDown, 1000);
+
+const activateToast = () => {
+  toast.classList.add("active");
+  progress.classList.add("active");
+
+  timer1 = setTimeout(() => {
+      toast.classList.remove("active");
+  }, 5000);
+
+  timer2 = setTimeout(() => {
+    progress.classList.remove("active");
+  }, 5300);
+
+  clearTimeout(timer1);
+  clearTimeout(timer2);
+}
+
+const activateCloseBtn = () => {
+  closeIcon.addEventListener("click", () => {
+    toast.classList.remove("active");
+    
+    setTimeout(() => {
+      progress.classList.remove("active");
+    }, 300);
+})}

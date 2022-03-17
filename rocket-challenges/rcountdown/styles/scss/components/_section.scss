@@ -116,7 +116,12 @@
        
       }
 
+      .launch-resume {
+        background-color: #3be67d;
+      }
+
       .launch-abort {
+        background-color: #e64f3b;;
         &:hover {
           background-color: #e64f3b;
         }

@@ -16,7 +16,7 @@ de decolagem com o countdown para criar uma página interativa e adicionar mais 
 - Javascript
 
 ## Design
-Você pode consultar o design do desafio através do link Figma.
+Você pode consultar o design do desafio através do link **[Figma](https://www.figma.com/file/o7NUQQZdL7Up7RgnwLJtf0/DD-Countdown-Copy?fuid=898242652746725678)** e o guia de cores através do **[styleguide.md](/styleguide.md)**
 
 ## 🧱 Implementações
 
@@ -30,7 +30,8 @@ Você pode consultar o design do desafio através do link Figma.
 - [X] Adicionada funcionalidade de criar um countdown regressivo de menor tempo
 - [X] Adicionado botão de pausar countdown
 - [X] Adicionado botão de resume countdown
-- [ ] Toast para quando o foguete for lançado
-- [ ] Toast com mensagem para missão cancelada
+- [X] Toast para quando o foguete for lançado
+- [X] Toast com mensagem para missão cancelada
+- [ ] Consertar o setTimeOut do Toast
 
 ---

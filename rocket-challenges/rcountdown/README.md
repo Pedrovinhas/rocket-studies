@@ -19,7 +19,7 @@ de decolagem com o countdown para criar uma página interativa e adicionar mais 
 Você pode consultar o design do desafio através do link **[Figma](https://www.figma.com/file/o7NUQQZdL7Up7RgnwLJtf0/DD-Countdown-Copy?fuid=898242652746725678)** e o guia de cores através do **[styleguide.md](/styleguide.md)**
 
 ## 🚀 Deploy
-O link do site pode ser consultado por esse link **[RocketCountdown](rocketcoundown.vercel.app)**
+O link do site pode ser consultado por esse link **[RocketCountdown](https://rocketcoundown-lpecd5d4c-pedrovinhas.vercel.app/)**
 
 ## 🧱 Implementações
 
@@ -35,6 +35,7 @@ O link do site pode ser consultado por esse link **[RocketCountdown](rocketcound
 - [X] Adicionado botão de resume countdown
 - [X] Toast para quando o foguete for lançado
 - [X] Toast com mensagem para missão cancelada
-- [ ] Consertar o setTimeOut do Toast
-
+- [ ] Fix o setTimeOut do Toast
+- [ ] Fix rushCountdown quando o time acabar, para ter opção de voltar ao timer original
+- [ ] Fix desaparecimento do Toast quando acabar o tempo
 ---

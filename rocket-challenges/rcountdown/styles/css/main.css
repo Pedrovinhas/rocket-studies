@@ -280,8 +280,8 @@
 }
 
 .toast .progress.active:before {
-  -webkit-animation: progress 5s linear forwards;
-          animation: progress 5s linear forwards;
+  -webkit-animation: progress 4s linear forwards;
+          animation: progress 4s linear forwards;
 }
 
 .toast.active {

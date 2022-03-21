@@ -14,7 +14,7 @@ const toast = document.querySelector(".toast"),
 
 const date = new Date("01-06-2023");
 
-let timer1, timer2;
+let timer1, timer2
 
 function countDown() {
   const now = new Date().getTime();
@@ -31,15 +31,14 @@ function countDown() {
   seconds.innerHTML = secondTime.toString().padStart(2, 0);
 }
 
-function countDownRush() {
+const countDownRush = () => {
   clearInterval(timer);
   
   days.innerHTML = '00';
   hours.innerHTML = "00";
   minutes.innerHTML = '00';
-  
-  activateToast();
-  activateCloseBtn()
+  activateToast()
+    activateCloseBtn()
 
   toastTitle.innerHTML = 'Rush mode actived!'
   toastSpan.innerHTML = 'Please fasten your seat belt! ⛑'
@@ -49,14 +48,18 @@ function countDownRush() {
   var timeLeft = setInterval ( () => {
     if(rushSeconds <= 0) {
         clearInterval(timeLeft)
+        pauseBtn.style.display = 'none';
+        resumeBtn.style.display = 'none';
+        rushBtn.innerHTML = 'Timer finished'
     }
+    rushBtn.setAttribute('disabled', 'disabled')
     pauseBtn.setAttribute('disabled', 'disabled')
     seconds.innerHTML = (rushSeconds).toString().padStart(2, 0);   
     rushSeconds -= 1
     console.log(rushSeconds)
     
   }, 1000)
-
+  
  
 }
 
@@ -65,9 +68,9 @@ pauseBtn.addEventListener("click", () => {
     clearInterval(timer);
     pauseBtn.style.display = 'none';
     resumeBtn.style.display = 'block';
-    activateToast();
+  
+    activateToast()
     activateCloseBtn()
-
     toastTitle.innerHTML = 'Oh no! 😢'
     toastSpan.innerHTML = 'Houston we got a problem!'
     
@@ -78,18 +81,15 @@ pauseBtn.addEventListener("click", () => {
 resumeBtn.addEventListener("click", () => {
     timer = setInterval(countDown, 1000);
     pauseBtn.style.display = 'block'
-    resumeBtn.style.display = 'none';
-    activateToast();
+    resumeBtn.style.display = 'none';   
+
+    activateToast()
     activateCloseBtn()
     toastTitle.innerHTML = 'Yeeeeah!'
     toastSpan.innerHTML = 'Rocket has no reverse 🚀'
 
+
 })
-
-rushBtn.addEventListener("click", countDownRush);
-
-
-timer = setInterval(countDown, 1000);
 
 const activateToast = () => {
   toast.classList.add("active");
@@ -97,14 +97,14 @@ const activateToast = () => {
 
   timer1 = setTimeout(() => {
       toast.classList.remove("active");
-  }, 5000);
+  }, 3700);
 
   timer2 = setTimeout(() => {
     progress.classList.remove("active");
-  }, 5300);
+  }, 4000);
 
-  clearTimeout(timer1);
-  clearTimeout(timer2);
+  
+  console.log(timer1, timer2);
 }
 
 const activateCloseBtn = () => {
@@ -115,3 +115,10 @@ const activateCloseBtn = () => {
       progress.classList.remove("active");
     }, 300);
 })}
+
+
+rushBtn.addEventListener("click", countDownRush);
+
+
+timer = setInterval(countDown, 1000);
+

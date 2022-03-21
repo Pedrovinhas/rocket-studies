@@ -32,6 +32,6 @@ Você pode consultar o design do desafio através do link **[Figma](https://www.
 - [X] Adicionado botão de resume countdown
 - [X] Toast para quando o foguete for lançado
 - [X] Toast com mensagem para missão cancelada
-- [ ] Consertar o setTimeOut do Toast
+- [X] Consertar o setTimeOut do Toast
 
 ---

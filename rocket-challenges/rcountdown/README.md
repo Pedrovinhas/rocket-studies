@@ -35,13 +35,9 @@ O link do site pode ser consultado por esse link **[RocketCountdown](https://roc
 - [X] Adicionado botão de resume countdown
 - [X] Toast para quando o foguete for lançado
 - [X] Toast com mensagem para missão cancelada
-<<<<<<< HEAD
-- [X] Consertar o setTimeOut do Toast
 
+### 🔨 Fix
+- [X] setTimeOut do Toast
+- [X] rushCountdown quando o time acabar, para ter opção de voltar ao timer original
+- [X] desaparecimento do Toast quando acabar o tempo
 ---
-=======
-- [X] Fix o setTimeOut do Toast
-- [X] Fix rushCountdown quando o time acabar, para ter opção de voltar ao timer original
-- [X] Fix desaparecimento do Toast quando acabar o tempo
----
->>>>>>> c127d7c6f85036b4a0d614cc20dee715b4cb0085

@@ -1,0 +1,51 @@
+.container {
+  margin-top: 0.188rem;
+  display: flex;
+ 
+  section {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 39.25rem;
+    height: 19.938rem;
+
+    aside {
+      margin-right: 1.875rem;
+  
+      img {
+        width: 10.688rem;
+        height: 15.188rem;
+      }
+    }
+
+    main {
+   
+      h2 {
+        color: var(--title);
+        font-size: 1.25rem;
+        margin-bottom: 1.188rem;
+      }
+
+      p {
+        color: var(--subtitle);
+        font-weight: 400;
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    overflow: auto;
+  }
+  
+  .container {
+    section{
+      display: flex;  
+      flex-direction: column;
+      width: 19.75rem;
+      height: 41.375rem;
+    }
+  }
+}

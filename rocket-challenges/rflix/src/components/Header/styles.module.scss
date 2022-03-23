@@ -1,0 +1,26 @@
+.headerContainer {
+  height: 16rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+
+  margin-bottom: 1.875rem;
+
+  header {
+    width: 33.313rem;
+    height: 7.688rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+    img {
+      margin-bottom: 0.188rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: var(--title);
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.finderSection {
+  margin-top: 1.875rem;
+
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+
+  button {
+    width: 11.25rem;
+    height: 2.938rem;
+    background-color: var(--bg-button);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    cursor: pointer;
+
+    margin-bottom: 1.625rem;
+    border-radius: 0.313rem;
+    img {
+      width: 2.188rem;
+      height: 1.563rem;
+    }
+
+    span {
+      font-size: 0.75rem;
+      font-weight: 700;
+      font-family: var(--font);
+    }
+  }
+
+  p {
+    width: 23.813rem;
+    height: 2.625rem;
+
+    text-align: center;
+
+    font-size: 0.875rem;
+    color: var(--title);
+  }
+}

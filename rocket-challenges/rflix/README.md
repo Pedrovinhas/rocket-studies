@@ -8,7 +8,7 @@
 
 
 ## 🎉 Objetivo
-
+Neste desafio utilizo a API do themoviedb.org para exibir um filme aleatório sempre que clicar em Encontrar Filme. O projeto segue as indicações feita nesse post no [Notion](https://efficient-sloth-d85.notion.site/Desafio-Rocketflix-5ca1c56b5e52473eb12e8b2bc3ab1b8d#06e6ecb4212447c695dfbe7da61ec551)
 ## 🔩 Techs
 - [X] Yarn
 - [X] React with ``create vite app``
@@ -16,6 +16,7 @@
 
 ### Dependências
 - [X] Axios
+- [X] API themoviedb
 
 ## 🧱 Implementações
 
@@ -25,7 +26,7 @@
 - [ ] Consumo da API **moviedb** com Axios
 - [ ] Funcionalidade de Shuffle para trazer um filme aleatório (usar MathRandom com o id dos filmes)
 - [ ] Organizar código do responsivo
-
+- [ ] Usar ``.env`` para API_KEY
 ### ✨ Features
 - [ ] Trazer mais informações da API, como atores, gênero
 - [ ] Implementar funcionalidade de Shuffle com gênero específico

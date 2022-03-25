@@ -1,9 +1,11 @@
 import styles from './styles.module.scss';
+import Finder from '../Finder'
 
-export default function MovieSection() {
-  
+export default function MovieSection({title, poster_path, overview}) {
+
     return (
         <div className={styles.container}>
+         
             <section >
                 <aside>
                     <img src="https://img.elo7.com.br/product/original/3816CC2/big-poster-serie-wandavision-lo001-cartaz.jpg" alt="" />

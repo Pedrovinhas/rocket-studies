@@ -23,10 +23,10 @@ Neste desafio utilizo a API do themoviedb.org para exibir um filme aleatório se
 ### Achievements
 - [X] Site fidedigno ao Design
 - [X] Responsividade para diversos dispositivos
-- [ ] Consumo da API **moviedb** com Axios
-- [ ] Funcionalidade de Shuffle para trazer um filme aleatório (usar MathRandom com o id dos filmes)
+- [X] Consumo da API **moviedb** com Axios
+- [X] Funcionalidade de Shuffle para trazer um filme aleatório (usar MathRandom com o id dos filmes)
 - [ ] Organizar código do responsivo
-- [ ] Usar ``.env`` para API_KEY
+- [X] Usar ``.env`` para API_KEY
 ### ✨ Features
 - [ ] Trazer mais informações da API, como atores, gênero
 - [ ] Implementar funcionalidade de Shuffle com gênero específico

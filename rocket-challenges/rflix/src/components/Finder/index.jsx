@@ -7,18 +7,17 @@ export default function Finder() {
   const [movie, setMovie] = useState("");
 
   const fetchMovie = async () => {
-    const randomMovie = Math.floor(Math.random() * 10000);
+    const randomPage = Math.floor(Math.random() * 500);
+    
     await axios
       .get(
-        `https://api.themoviedb.org/3/movie/${randomMovie}?api_key=${import.meta.env.VITE_API_KEY}`
+        `https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=${import.meta.env.VITE_API_KEY}&page=${randomPage}`
       )
       .then((response) => {
-        const data = response.data;
-        console.log(data);
-
-        console.log(response);
-
-        setMovie(data);
+        const data = response.data.results;
+        const randomMovie = data[Math.floor(Math.random() * data.length)]
+       
+       setMovie(randomMovie);
       })
       .catch((error) => console.error("ocorreu um erro"));
   };
@@ -28,6 +27,8 @@ export default function Finder() {
     fetchMovie();
   };
 
+ 
+  console.log(movie)
   return (
     <section className={styles.finderSection}>
       <button type="button" onClick={shuffleMovie}>

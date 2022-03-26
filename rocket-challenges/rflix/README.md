@@ -1,7 +1,7 @@
 # Rocketflix
 
 <div align="center">
-    <img src="rflix.gif">
+    <img src="./public/rflix.gif">
 </div>
 
 <p align="center">

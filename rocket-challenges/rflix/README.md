@@ -1,5 +1,9 @@
 # Rocketflix
 
+<div align="center">
+    <img src="rflix.gif">
+</div>
+
 <p align="center">
   <a href="#-Objetivo"> 🎉 Objetivo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Techs"> 🔩 Techs</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -30,4 +34,4 @@ Neste desafio utilizo a API do themoviedb.org para exibir um filme aleatório se
 ### ✨ Features
 - [ ] Trazer mais informações da API, como atores, gênero
 - [ ] Implementar funcionalidade de Shuffle com gênero específico
-- [ ] Animações ao clicar no botão e ao trazer as informações sobre o filme
+- [X] Animações ao clicar no botão e ao trazer as informações sobre o filme

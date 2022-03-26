@@ -17,16 +17,15 @@ body {
   background: var(--background) no-repeat;
   background-size: cover;
   font-family: var(--font);
-  height: 100%;
-  height: 100vh;
-  
+
+  height: 120vh;
+
   overflow: hidden;
 }
 
 @media (max-width: 1080px) {
   html {
     font-size: 93.75%;
-    text-align: center;
   }
 }
 
@@ -34,22 +33,38 @@ body {
   html {
     font-size: 87.5%; // 14px
   }
-  
-}
 
+  body {
+    height: 120vh;
+  }
+}
 
 @media (max-width: 1366px) {
   html {
     font-size: 80%;
   }
-  
+
   body {
-    height: 110vh;
+    height: 120vh;
   }
 }
 
 @media (max-width: 2000px) {
   html {
     font-size: 95%;
+  }
+}
+
+.fadeIn {
+  animation: fadeIn 2s;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  from {
+  	opacity: 0;
+  }
+  to {
+ 	opacity: 1;
   }
 }

@@ -1,17 +1,22 @@
 .container {
   margin-top: 0.188rem;
-  display: flex;
- 
+
+  animation: fadeIn 2s;
+  opacity: 1;
+
+  height: 20rem;
+  
+
   section {
     display: flex;
     align-items: center;
     margin: 0 auto;
     width: 39.25rem;
     height: 19.938rem;
-
+   
     aside {
       margin-right: 1.875rem;
-  
+
       img {
         width: 10.688rem;
         height: 15.188rem;
@@ -19,7 +24,9 @@
     }
 
     main {
-   
+      height: 80%;
+      width: 100%;
+    
       h2 {
         color: var(--title);
         font-size: 1.25rem;
@@ -39,13 +46,34 @@
   body {
     overflow: auto;
   }
-  
+
   .container {
-    section{
-      display: flex;  
+    height: 80%;
+  
+    section {
+      display: flex;
       flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
       width: 19.75rem;
       height: 41.375rem;
+
+      aside {
+        align-self: center;
+        margin-bottom: 1.175rem;
+        margin-right: 0;
+      
+      }
     }
+  }
+}
+
+@keyframes fadeIn {
+  from {
+  	opacity: 0;
+  }
+  to {
+ 	opacity: 1;
   }
 }

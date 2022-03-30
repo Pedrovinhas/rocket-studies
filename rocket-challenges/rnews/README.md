@@ -39,7 +39,7 @@ O design do projeto pode ser consultado através desse [link](https://www.figma.
 
 ### ✨ Features
 - [ ] Validação do input de e-mail
-- [ ] 
+- [ ] React Toast para e-mail cadastrado com sucesso na newsletter
 
 ## 👷 How to Run
 

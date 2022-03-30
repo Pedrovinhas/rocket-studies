@@ -18,9 +18,16 @@ Neste desafio utilizo a API do themoviedb.org para exibir um filme aleatório se
 ## 🎨 Design
 O design do projeto pode ser consultado através desse [link](https://www.figma.com/file/y62bHFgGH7fnIf0djOsSev/DD-Rocketflix-Copy?fuid=898242652746725678) no Figma. Consulte também o [Guia de Estilo](/styleguide.md)
 ## 🔩 Techs
+
 - [X] Yarn
 - [X] React with ``create vite app``
 - [X] SASS
+
+<div>
+<img width='24px' height='24px' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React Icon">
+<img width='24px' height='24px' src="https://camo.githubusercontent.com/61e102d7c605ff91efedb9d7e47c1c4a07cef59d3e1da202fd74f4772122ca4e/68747470733a2f2f766974656a732e6465762f6c6f676f2e737667" alt="Vite Icon">
+<img width='24px' height='24px' src="https://cdn.iconscout.com/icon/free/png-256/sass-226054.png" alt="Styled-Components Icon">
+</div>
 
 ### Dependências
 - [X] Axios
@@ -39,3 +46,17 @@ O design do projeto pode ser consultado através desse [link](https://www.figma.
 - [ ] Trazer mais informações da API, como atores, gênero
 - [ ] Implementar funcionalidade de Shuffle com gênero específico
 - [X] Animações ao clicar no botão e ao trazer as informações sobre o filme
+
+## 👷 How to Run
+
+Rodando o projeto na web
+
+```
+# Acesse a pasta do projeto
+$ cd rflix
+
+# Instale as dependências
+$ yarn install ou npm install
+
+# Rode a aplicação
+$ yarn dev ou npm run

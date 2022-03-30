@@ -1,7 +1,4 @@
 # 🎨 Style Guide
-
----
-
 ## **Cores:**
 
 ```css

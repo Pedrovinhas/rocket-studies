@@ -24,6 +24,7 @@ O design do projeto pode ser consultado através desse [link](https://www.figma.
 <img width='24px' height='24px' src="https://styled-components.com/logo.png">
 <img width='24px' height='24px' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
 </div>
+
 - [X] Yarn
 - [X] ReactJS with ``create vite app``
 - [X] styled-components

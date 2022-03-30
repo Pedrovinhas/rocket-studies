@@ -20,9 +20,10 @@ Neste desafio o objetivo é construir uma página para a captação de leads ou 
 O design do projeto pode ser consultado através desse [link](https://www.figma.com/file/7ADTXs4fEbUCWijfsfgoca/DD-RocketNews-Copy?fuid=898242652746725678) no Figma. Consulte também o [Guia de Estilo](/styleguide.md)
 ## 🔩 Techs
 
+<div>
 <img width='24px' height='24px' src="https://styled-components.com/logo.png">
 <img width='24px' height='24px' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-
+</div>
 - [X] Yarn
 - [X] ReactJS with ``create vite app``
 - [X] styled-components

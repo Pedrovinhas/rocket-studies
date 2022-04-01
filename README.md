@@ -1,10 +1,27 @@
+
+
 # 📁 | 🚀 Rocket-Studies
- Repositório com diversas aulas e cursos da RocketSeat, disponíveis no YouTube, Lives e em maratonas. Todos os conteúdos são 100% gratuitos e serão agrupados conforme a indicação abaixo.
+
+
+<div align='center'>
+    <img width='15%'  src="assets/astrounaut.svg" >
+</div>
+
+<p align="center">
+  <a href="#-Objetivo"> 🖊 Objetivo</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="#-Design"> 📑 Agrupamentos</a>&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Desafios"> 🧠 Desafios</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
+
+
+## 🖊 Objetivo
+Repositório com diversas aulas e cursos da RocketSeat, disponíveis no YouTube, Lives e em maratonas. Todos os conteúdos são 100% gratuitos e serão agrupados conforme a indicação abaixo.
 
 ## 📑 Agrupamentos
+
 Divide-se em **fonte**, por onde foi consumido as aulas e **tecnologia**, qual(is) foram a(s) tecnologia(s) abordada(s).
 
-###  Por fonte
+### Por fonte
 
 <table> 
     <thead> 
@@ -95,8 +112,28 @@ Divide-se em **fonte**, por onde foi consumido as aulas e **tecnologia**, qual(i
     </tbody>
 </table>
 
+## 🧠 Desafios
+
+<table>
+     <thead>
+         <th> Desafio </th>
+        <th> Techs </th>
+     </thead>
+     <tbody>
+     <tr> 
+     <td>  <a href=""> RocketCountdown </a> </td>
+      </tr>
+     <tr>
+      <td> <a href=""> RocketFlix </a> </td>
+     <td> </td>
+     <td> </td>
+      </tr>
+     <tr>
+ <td>  <a href=""> RocketNews </a> </td>
+     </tr>
+     </tbody>
+</table>
 
 --- 
-
 
 <blockquote> Feito por Pedro Henrique Vinhas 🪐 </blockquote>

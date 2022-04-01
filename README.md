@@ -1,10 +1,7 @@
 
 
-# 📁 | 🚀 Rocket-Studies
-
-
 <div align='center'>
-    <img width='15%'  src="assets/astrounaut.svg" >
+    <img width='380px'  src="assets/astrounaut.svg" >
 </div>
 
 <p align="center">
@@ -125,8 +122,6 @@ Divide-se em **fonte**, por onde foi consumido as aulas e **tecnologia**, qual(i
       </tr>
      <tr>
       <td> <a href=""> RocketFlix </a> </td>
-     <td> </td>
-     <td> </td>
       </tr>
      <tr>
  <td>  <a href=""> RocketNews </a> </td>

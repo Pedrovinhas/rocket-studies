@@ -1,5 +1,3 @@
-
-
 <div align='center'>
     <img width='380px'  src="assets/astrounaut.svg" >
 </div>
@@ -10,8 +8,8 @@
   <a href="#-Desafios"> 🧠 Desafios</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
-
 ## 🖊 Objetivo
+
 Repositório com diversas aulas e cursos da RocketSeat, disponíveis no YouTube, Lives e em maratonas. Todos os conteúdos são 100% gratuitos e serão agrupados conforme a indicação abaixo.
 
 ## 📑 Agrupamentos
@@ -114,7 +112,7 @@ Divide-se em **fonte**, por onde foi consumido as aulas e **tecnologia**, qual(i
 <table>
      <thead>
          <th> Desafio </th>
-        <th> Techs </th>
+        <th> Techs </th>    
      </thead>
      <tbody>
      <tr> 
@@ -126,13 +124,9 @@ Divide-se em **fonte**, por onde foi consumido as aulas e **tecnologia**, qual(i
       </tr>
      <tr>
       <td> <a href=""> RocketFlix </a> </td>
-<<<<<<< HEAD
      <td> <img width='24px' height='24px' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React Icon">
         <img width='24px' height='24px' src="https://camo.githubusercontent.com/61e102d7c605ff91efedb9d7e47c1c4a07cef59d3e1da202fd74f4772122ca4e/68747470733a2f2f766974656a732e6465762f6c6f676f2e737667" alt="Vite Icon">
             <img width='24px' height='24px' src="https://cdn.iconscout.com/icon/free/png-256/sass-226054.png" alt="Styled-Components Icon">  </td>
-     <td> </td>
-=======
->>>>>>> eae3ee369d7891f19da9e3105a04c18c65e50ad9
       </tr>
      <tr>
      <td>  <a href=""> RocketNews </a>  
@@ -146,6 +140,6 @@ Divide-se em **fonte**, por onde foi consumido as aulas e **tecnologia**, qual(i
      </tbody>
 </table>
 
---- 
+---
 
 <blockquote> Feito por Pedro Henrique Vinhas 🪐 </blockquote>

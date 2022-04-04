@@ -1,0 +1,17 @@
+.imageSection {
+    width: 50vw;
+
+    background-image: url('side-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    opacity: .9;
+}
+
+@media only screen and (max-width: 1024px){
+    .imageSection {
+      visibility: hidden;
+  
+    }
+  }

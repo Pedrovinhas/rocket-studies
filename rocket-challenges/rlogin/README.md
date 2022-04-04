@@ -17,4 +17,4 @@ Neste desafio você vai criar um formulário de login. Consulte o [Notion](https
 ### To Do
 - [ ] Input validations
 - [ ] Telinha de registro concluído
-- [ ] Responsivo em 4k
+- [X] Responsivo em 4k

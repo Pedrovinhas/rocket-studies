@@ -24,6 +24,10 @@
       display: flex;
       flex-direction: column;
 
+      .password {
+        cursor: pointer;
+      }
+
       img {
         width: 24px;
       }
@@ -100,7 +104,7 @@
           font-weight: 600;
           font-size: 0.875rem;
           cursor: pointer;
-          transition:  all 1s;
+          transition: all 1s;
 
           &:hover {
             border-bottom: 0.015rem solid var(--primary-color);
@@ -111,7 +115,7 @@
           height: 2rem;
           display: flex;
           align-items: center;
-          
+
           .check {
             height: 1.325rem;
             width: 1.325rem;
@@ -129,63 +133,54 @@
             }
 
             &:checked {
-              background-color:var(--primary-color);
+              background-color: var(--primary-color);
             }
-            
 
-             img {
-               width: 100%;
-               height: 100%;
-                
-
-             
-             }
+            img {
+              width: 100%;
+              height: 100%;
             }
-            
-          }
-          
-         
-
-          label {
-            font-weight: 400;
           }
         }
-      }
 
-      button {
-        padding: 0.75rem 1.5rem;
-        text-transform: uppercase;
-        font-weight: 600;
-        font-size: 1.125rem;
-
-        margin-bottom: 0.875rem;
-
-        border-radius: 0.25rem;
-        font-family: var(--font-poppins);
-        background-color: var(--primary-color);
-        transition: all 0.2;
-
-        &:hover {
-          border: 0.125rem solid var(--text-title);
-        }
-      }
-
-      p {
-        text-align: center;
-        color: var(--primary-color);
-
-        span {
-          font-weight: 600;
-          cursor: pointer;
+        label {
+          font-weight: 400;
         }
       }
     }
+
+    button {
+      padding: 0.75rem 1.5rem;
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 1.125rem;
+
+      margin-bottom: 0.875rem;
+
+      border-radius: 0.25rem;
+      font-family: var(--font-poppins);
+      background-color: var(--primary-color);
+      transition: all 0.2;
+
+      &:hover {
+        border: 0.125rem solid var(--text-title);
+      }
+    }
+
+    p {
+      text-align: center;
+      color: var(--primary-color);
+
+      span {
+        font-weight: 600;
+        cursor: pointer;
+      }
+    }
   }
+}
 
-
-  @media only screen and (max-width: 1024px){
-
-    .formSection {
+@media only screen and (max-width: 1024px) {
+  .formSection {
     .formContainer {
       background-color: var(--background);
       width: 100vw;
@@ -195,8 +190,6 @@
       justify-content: center;
 
       margin-top: 1.875rem;
-     
-  
     }
   }
-  }
+}

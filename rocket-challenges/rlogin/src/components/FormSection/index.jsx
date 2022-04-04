@@ -1,6 +1,14 @@
 import styles from "./styles.module.scss";
+import { useState } from "react"
 
 export default function FormSection() {
+
+    const [passwordShown, setPasswordShown] = useState(false)
+
+    const togglePassword = () => {
+        setPasswordShown(!passwordShown);
+    }
+
     return (
         <section className={styles.formSection}>
             <nav className={styles.navigation}>
@@ -23,8 +31,8 @@ export default function FormSection() {
                     <label htmlFor=""> Senha </label>
                     <div className={styles.inputs}>
                         <img src="lock.svg" alt="Cadeado" />
-                        <input type="password"placeholder="Digite sua senha" />
-                        <img src="eye.svg" alt="Olhos para ver a senha" />
+                        <input type={passwordShown ? "text" : "password"} placeholder="Digite sua senha" />
+                        <img className={styles.password} onClick={togglePassword} src="eye.svg" alt="Olhos para ver a senha" />
                     </div>
                     <div className={styles.checkbox}>
                         <div>

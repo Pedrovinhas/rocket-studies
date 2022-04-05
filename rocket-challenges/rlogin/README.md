@@ -18,3 +18,7 @@ Neste desafio você vai criar um formulário de login. Consulte o [Notion](https
 - [ ] Input validations
 - [ ] Telinha de registro concluído
 - [X] Responsivo em 4k
+
+### Features
+- [ ] React Hook Form
+- [ ] Yup for input validations

@@ -1,7 +1,7 @@
 # RocketLogin
 
-<div align="center">
-    <img src="./public/rflix.gif">
+<div  align="center">
+    <img width='1440px' src="./public/rlogin.gif">
 </div>
 
 <p align="center">

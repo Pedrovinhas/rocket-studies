@@ -11,7 +11,7 @@
 ## 🖊 Objetivo
 
 Repositório com diversas aulas e cursos da RocketSeat, disponíveis no YouTube, Lives e em maratonas. Todos os conteúdos são 100% gratuitos e serão agrupados conforme a indicação abaixo.
-
+- [] Construir uma page agrupando todos os desafios
 ## 📑 Agrupamentos
 
 Divide-se em **fonte**, por onde foi consumido as aulas e **tecnologia**, qual(is) foram a(s) tecnologia(s) abordada(s).
@@ -137,6 +137,13 @@ Divide-se em **fonte**, por onde foi consumido as aulas e **tecnologia**, qual(i
 <img width='24px' height='24px' src="https://styled-components.com/logo.png" alt="Styled-Components Icon">
      </td>
      </tr>
+        </tr>
+     <tr>
+      <td> <a href=""> RocketLogin </a> </td>
+     <td> <img width='24px' height='24px' src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React Icon">
+        <img width='24px' height='24px' src="https://camo.githubusercontent.com/61e102d7c605ff91efedb9d7e47c1c4a07cef59d3e1da202fd74f4772122ca4e/68747470733a2f2f766974656a732e6465762f6c6f676f2e737667" alt="Vite Icon">
+            <img width='24px' height='24px' src="https://cdn.iconscout.com/icon/free/png-256/sass-226054.png" alt="Styled-Components Icon">  </td>
+      </tr>
      </tbody>
 </table>
 

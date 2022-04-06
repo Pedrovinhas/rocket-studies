@@ -17,7 +17,7 @@
 Neste desafio você vai criar um formulário de login. Consulte o [Notion](https://efficient-sloth-d85.notion.site/Desafio-Login-Form-CSS-a10caea5a183494e97eb9ce4f33536b3) para mais detalhes sobre o desafio.
 
 ## 🎨 Design
-O design do projeto pode ser consultado através desse [link](https://www.figma.com/file/ZVbRWUer6y28iTdg4rxbeG/DD-%2F-Login-Form---CSS-(Copy)?node-id=222%3A63) no Figma. Consulte também o [Guia de Estilo](/styleguide.md)
+O design do projeto pode ser consultado através desse [link](https://www.figma.com/file/ZVbRWUer6y28iTdg4rxbeG/DD-%2F-Login-Form---CSS-(Copy)?node-id=222%3A63) no Figma. Consulte também o [Guia de Estilo](styleguide.md)
 
 
 ## 📑 Requisitos do desafio
@@ -47,11 +47,12 @@ O design do projeto pode ser consultado através desse [link](https://www.figma.
 - [X] Responsividade para diversos dispositivos
 - [X] Input validations
 - [X] Animações no Input
-- [X] Responsivo em 4k
 ### ✨ Features
 - [X] React Hook Form
 - [X] Yup for input validations
-- [ ] Telinha de registro concluído
+- [ ] React Toast sinalizando que o usuário logou
+- [ ] Abrir um modal após o Login (autenticação)
+- [ ] Botão de **Lembrar-me** guardando os dados no LocalStorage
 ## 👷 How to Run
 
 Rodando o projeto na web

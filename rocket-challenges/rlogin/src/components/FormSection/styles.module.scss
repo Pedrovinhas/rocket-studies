@@ -19,7 +19,9 @@
 
     .loginForm {
       width: 20.938rem;
-      height: 25.188rem;
+      height: 32.188rem;
+
+      justify-content: center;
 
       display: flex;
       flex-direction: column;
@@ -64,7 +66,7 @@
         width: 20.938rem;
         height: 2.75rem;
         margin-top: 0.313rem;
-        margin-bottom: 1.25rem;
+        margin-bottom: 0.325rem;
         border-radius: 0.25rem;
         display: flex;
 
@@ -74,6 +76,7 @@
         &:hover {
           border: 0.125rem solid var(--primary-color);
         }
+
 
         img {
           margin-left: 0.75rem;
@@ -91,6 +94,16 @@
           font-family: var(--font-roboto);
           font-size: 0.875rem;
         }
+      }
+      
+      .error {
+        font-size: 0.675rem;
+        align-self: flex-start;
+
+      }
+      
+      .error:first-child {
+        border: 1px solid red;
       }
 
       .checkbox {

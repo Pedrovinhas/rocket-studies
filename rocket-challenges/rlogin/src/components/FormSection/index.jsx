@@ -2,7 +2,7 @@ import styles from "./styles.module.scss";
 import { useState } from "react"
 import { useForm } from 'react-hook-form'
 import { yupResolver } from '@hookform/resolvers/yup'
-import { userSchema } from '../../validationSchema'
+import { userSchema } from '../../validation/validationSchema'
 
 export default function FormSection() {
 
@@ -48,9 +48,10 @@ export default function FormSection() {
                             placeholder="Digite seu e-mail"
                             {...register('email')}
                         />
-                        <div><p>{errors.email?.message} </p></div>
+                      
                        
                     </div>
+                    <p className={styles.error}>{errors.email?.message && 'Por favor, insira um e-mail válido'} </p>
                     <label htmlFor=""> Senha </label>
                     <div className={styles.inputs}>
                         <img src="lock.svg" alt="Cadeado" />
@@ -60,7 +61,7 @@ export default function FormSection() {
                             name="password"
                             {...register('password')}
                         />
-                        <div><p>{errors.password?.message} </p></div>
+                       
                           
                         <img
                             className={styles.password}
@@ -68,6 +69,7 @@ export default function FormSection() {
                             src="eye.svg"
                             alt="Olhos para ver a senha" />
                     </div>
+                    <p className={styles.error}>{errors.password?.message && 'A senha deve ter entre 6 a 12 dígitos'} </p>
                     <div className={styles.checkbox}>
                         <div>
                             <div className={styles.check}>

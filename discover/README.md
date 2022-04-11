@@ -2,20 +2,21 @@
 
 ## 🔍 Índice
 
-### Conectar
+## Conectar
 
-|📌 []() | ✅  |
-|📌 []() | ✅  |
+| Documentação      | Status  | Conteúdo |
+| ---------- | :------: | ---------- |
+|📌  [Guia Estelar de programação]() | ✅  |
+|📌 [Internet, Roteadores e Servidores]() | ❌  |
+|📌 [Computador, Software e Hardware]() | ❌  |
+|📌 [Sistemas operacionais]() | ❌  |
+|📌 [Tipos de aplicações WEB]() | ❌  |
+|📌 [Linguagens de programação]() | ❌  |
+|📌 [Ambiente de desenvolvimento]() | ❌  |
 
-📌 [Guia Estelar de programação]()</br>
-📌 [Internet, Roteadores e Servidores]()</br>
-📌 [Computador, Software e Hardware]()</br>
-📌 [Sistemas operacionais]()</br>
-📌 [Tipos de aplicações WEB]()</br>
-📌 [Linguagens de programação]()</br>
-📌 [Ambiente de desenvolvimento]()</br>
+## Fundamentar
 
-### Fundamentar
+### **Guias Estelares**
 
 | Documentação      | Status  | Conteúdo |
 | ---------- | :------: | ---------- |
@@ -25,34 +26,46 @@
 |📌 [Guia Estelar de Git]() | ✅  |
 |📌 [Guia Estelar de Github]() | ❌| 
 |📌 [Guia Estelar de HTTP]() | ❌  |
-|📌 [Nem tudo são Pixels]() | ✅  | `Entendimento sobre `em, rem, distâncias absolutas, relativas, %, position, functions``
+
+### **Conteúdo Técnico** 
+
+| Documentação      | Status  | Conteúdo |
+| ---------- | :------: | ---------- |
+|📌 [Terminal]() | ❌ |  
+|📌 [Estrutura de Dados]() | ❌  |
+|📌 [Programação Orientada a Objeto]() | ❌   |
+|📌 [Programação Funcional]() | ❌   |
+
+### **Front-End**
+
+| Documentação      | Status  | Conteúdo |
+| ---------- | :------: | ---------- |
+|📌 [Nem tudo são Pixels]() | ✅  | ``Entendimento sobre em, rem, distâncias absolutas, relativas, %, position, functions``
 |📌 [Uma caixa dentro da outra]() | ✅ | ``Box-sizing, displays, margin, padding, border e outline`` 
 |📌 [Agora sim cores]() | ✅  |
 |📌 [Posso ver e ouvir o HTML]() | ✅ | ``Tags de vídeo, audio, iframe, images, svg``
 |📌 [Posicionando foguetes]() | ✅  | ``Layouts, position, static, relative, absolute, fixed, z-index, flex-box, grid``
 |📌 [App bonito até nos textos]() | ✅ | ``font, line-height, letter e word-spacing, text``  
-|📌 [Formulários de outro planeta]() | ✅ | 
-|📌 [HTML que faz sentido para todos]() | ❌ |  
-|📌 [Nem só de classes ou ID's]() | ❌  | 
-|📌 [Alinhando os Planetas]() | ❌ |  
-|📌 [Pilotando com a DOM]() | ✅ | 
-|📌 [Terminal]() | ❌ |  
+|📌 [Formulários de outro planeta](https://fanatical-seeker-3a5.notion.site/Formul-rios-de-outro-planeta-f2045970d4de4ad182902680a8c165e0) | ✅ | ``form, input, datalist, label, text-area, button, atributos``
+|📌 [HTML que faz sentido para todos](https://fanatical-seeker-3a5.notion.site/HTML-que-faz-sentido-para-todos-fde47c819c3d4a2e953626a962158810) | ✅ | ``Semântica, acessibilidade nas tags`` 
+|📌 [Nem só de classes ou ID's](https://fanatical-seeker-3a5.notion.site/Nem-s-de-classes-ou-ID-s-75d2cea034c1481b9d08f7627f8fbb76) | ✅   | ``Pseudo-classes, pseudo-elements, seletores e combinadores``
+|📌 [Alinhando os Planetas](https://fanatical-seeker-3a5.notion.site/Alinhando-os-Planetas-6af04d79aeea4fdcb7c2652e070540cb) | ✅  |  ``Float, table, Flexbox, propriedades flex `` 
+|📌 [Pilotando com a DOM]() | ✅ | ``Manipulação da DOM``
+
+### **Back-End**
+
+| Documentação      | Status  | Conteúdo |
+| ---------- | :------: | ---------- |
 |📌 [NodeJS]() | ❌ |  
 |📌 [Node + EJS]() | ❌ |  
 |📌 [SQL]() | ❌ |  
-|📌 [Estrutura de Dados]() | ❌  |
-|📌 [Programação Orientada a Objeto]() | ❌   |
-|📌 [Programação Funcional]() | ❌   |
 
+## Especializar
 
-
-
-
-### Especializar
-
-📌 []()</br>
-📌 []()</br>
-📌 []()</br>
-📌 []()</br>
-📌 []()</br>
-📌 []()</br>
+| Documentação      | Status  | Conteúdo |
+| ---------- | :------: | ---------- |
+|📌 [Javascript Assíncrono e Promises]() | ❌  |
+|📌 [Trabalhando com APIs]() | ❌  |
+|📌 [Fundamentos de ReactJS]() | ❌  |
+|📌 [Fundamentos do Typescript]() | ❌  |
+|📌 [Explorer]() | ❌  |

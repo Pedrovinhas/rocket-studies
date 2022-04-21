@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { motion } from 'framer-motion'
 
 export const StyledSection = styled.section`
    background-color: var(--white);         
@@ -11,7 +12,7 @@ export const StyledSection = styled.section`
    gap: 130px;
 
 `
-export const StyledMainPost = styled.div`
+export const StyledMainPost = styled(motion.div)`
    display: flex;
    flex-direction: column;
     

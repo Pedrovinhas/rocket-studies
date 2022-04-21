@@ -1,4 +1,9 @@
-### Milha Extra ⛷️
+<div align=center >
+    <img width=50% src="./public/rocket-blog.gif">
+</div>
+
+
+## Milha Extra ⛷️
 - [X] Framer-Motion com Styled-Componentes
 - [ ] React Router
 - [ ] Transformar cores e estilos para Web-Tokens usando Props.

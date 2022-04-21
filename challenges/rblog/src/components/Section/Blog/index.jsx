@@ -2,18 +2,14 @@ import { GridSection, GridChild } from './styles'
 import { useState, useEffect } from 'react'
 
 export function BlogSection() {
-  const [shouldShowActions, setShouldShowActions] = useState(false)
-
   const [lastYPos, setLastYPos] = useState(0)
 
   useEffect(() => {
 
     function handleScroll() {
       const yPos = window.scrollY
-      const isScrollingUp = yPos < lastYPos
       console.log(scrollY)
 
-      setShouldShowActions(isScrollingUp)
       setLastYPos(yPos)
     }
 

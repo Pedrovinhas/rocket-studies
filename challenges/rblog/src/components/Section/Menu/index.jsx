@@ -42,9 +42,13 @@ export function MenuSection() {
               <span> <img src="arrow-right.svg" alt="Seta de encaminhar para outra página" /></span>
           </p>
         </MainSection>
-        <div>
+        <motion.div
+        animate={{ opacity: window.scrollY > 500 ? 0 : 1 }} 
+        initial={{ opacity: 0 }}
+        transition= {{ duration: 1 }}
+        >
             <img src="featured-image.png" alt="Linhas de códigos" />
-        </div>
+        </motion.div>
       </StyledSection>
     );
   }

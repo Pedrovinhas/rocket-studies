@@ -6,6 +6,7 @@ import { BlogSection } from './components/Section/Blog'
 
 
 
+
 export function App() {
   return (
     <>
@@ -14,6 +15,7 @@ export function App() {
       <MenuSection />
       <PostSection />
       <BlogSection />
+
     </>
   )
 }

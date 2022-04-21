@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { motion } from "framer-motion"
 
 export const StyledSection = styled.section`
     display: flex;
@@ -48,7 +49,7 @@ export const MainSection = styled.main`
   
 `
 
-export const StyledParagraph = styled.p`
+export const StyledParagraph = styled(motion.p)`
         width: 29.313rem;
         height: 5.125rem;
         color: var(--light-purple);

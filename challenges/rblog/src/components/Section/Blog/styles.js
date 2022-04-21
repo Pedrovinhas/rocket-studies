@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { motion } from 'framer-motion' 
 
 export const GridSection = styled.section`
     display: grid;
@@ -19,7 +20,7 @@ export const GridSection = styled.section`
 
 `
 
-export const GridChild = styled.div`
+export const GridChild = styled(motion.div)`
     display: flex;
     flex-direction: column;
     align-items: flex-start;

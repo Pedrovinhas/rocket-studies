@@ -4,6 +4,7 @@
 
 
 ## Milha Extra ⛷️
+- [ ] Responsividade Mobile
 - [X] Framer-Motion com Styled-Componentes
 - [ ] React Router
 - [ ] Transformar cores e estilos para Web-Tokens usando Props.

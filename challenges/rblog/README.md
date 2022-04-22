@@ -1,5 +1,5 @@
 <div align=center >
-    <img width=50% src="./public/rocket-blog.gif">
+    <img  src="./public/rocket-blog.gif">
 </div>
 
 

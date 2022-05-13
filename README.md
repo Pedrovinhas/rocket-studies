@@ -48,6 +48,18 @@ Esse repositório contém diversas aulas e cursos da RocketSeat, disponíveis no
   </p>
 </td>
 </tr>
+
+<tr>
+<td> 
+    <p align="center">
+  <a href="./challenges"> 
+  <img width='50px'  src="./.github/desafios.svg"> 
+  <br> 
+  Desafios
+  </a> 
+  </p>
+</td>
+</tr>
 </table>
 
 

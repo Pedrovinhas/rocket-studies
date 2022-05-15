@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rocket Coffe</title>
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-background overflow-hidden font-manrope">
+    <header class="h-24 flex mx-auto border-b-[1px] border-border md:border-b-0 md:h-36 ">
+        <nav class="flex items-center justify-between w-full md:justify-around md:mx-auto md:w-4/5 ">
+            <img class="ml-6 md:hidden" src="./img/logo-mobile.svg" alt="Logo RocketSeat" />
+            <img class="hidden md:block" src="./img/logo-desktop.svg" alt="Logo Desktop">
+            <ul class="hidden md:flex text-text-color flex justify-center">
+                <li class="mr-6 cursor-pointer text-sm font-medium"> Home </li>
+                <li class="mr-6 cursor-pointer text-sm font-medium"> Menu </li>
+                <li class="mr-6 cursor-pointer text-sm font-medium"> Recompensas</li>
+                <li class="mr-6 cursor-pointer text-sm font-medium"> Gift Cards</li>
+                <li class="cursor-pointer text-sm font-medium"> Lojas</li>
+            </ul>
+            <div>
+                <button onClick="openModal()"
+                    class="modal-btn invisible px-8 py-2 text-sm border-[1px] border-button rounded-md flex items-center justify-center md:visible">
+                    <p class=" font-extrabold uppercase text-text-color">Pegar meu café</p>
+                </button>
+                <!-- <i> </i> -->
+            </div>
+            <span class="menu-hamburguer mr-6 cursor-pointer md:hidden">
+                <img class="open-menu md:hidden" src="./img/menu-buguer-open.svg" alt="Menu" />
+                <img class="sr-only close-menu md:hidden" src="./img/menu-buguer-close.svg" alt="Menu" />
+            </span>
+        </nav>
+    </header>
+
+
+
+    <section class="navigation sr-only h-52 text-text-color md:hidden">
+        <ul class="flex flex-col justify-center">
+            <li
+                class="w-full flex items-center h-12 border-b-[1px] border-b-border text-border-menu-mobile hover:text-text-color hover:border-l-button hover:border-l-[4px]">
+                <span class="ml-6 cursor-pointer ">Home</span> </li>
+            <li
+                class="w-full flex items-center h-12 border-b-[1px] border-border text-border-menu-mobile hover:text-text-color hover:border-l-button hover:border-l-[4px]">
+                <span class="ml-6 cursor-pointer">Menu</span> </li>
+            <li
+                class="w-full flex items-center h-12 border-b-[1px] border-border text-border-menu-mobile hover:text-text-color hover:border-l-button hover:border-l-[4px]">
+                <span class="ml-6 cursor-pointer">Recompensas</span> </li>
+            <li
+                class="w-full flex items-center h-12 border-b-[1px] border-border text-border-menu-mobile hover:text-text-color hover:border-l-button hover:border-l-[4px]">
+                <span class="ml-6 cursor-pointer">Gift Card</span> </li>
+            <li
+                class="w-full flex items-center h-12 border-b-[1px] border-border text-border-menu-mobile hover:text-text-color hover:border-l-button hover:border-l-[4px]">
+                <span class="ml-6 cursor-pointer">Lojas</span> </li>
+        </ul>
+    </section>
+
+    <section
+        class="main-section  h-[97vh] w-9/12 flex flex-col items-center justify-around mx-auto md:items-center md:h-[80vh] md:w-full md:mx-auto lg:h-[90v] 2xl:h-[95vh]">
+        <p
+            class="text-3xl text-text-color tracking-[0.02em] leading-10	antialiased font-semibold text-center not-italic md:hidden">
+            O café que fará seu código decolar para o próximo
+            nível.
+        </p>
+
+        <button onClick="openModal()"
+            class="px-10 py-4 border-2  border-button rounded-md flex items-center justify-center p-2 md:hidden">
+            <p class="mr-2 font-extrabold uppercase text-text-color ">Pegar meu café</p>
+            <img class="text-text-color" src="./img/arrow.svg" alt="Comprar café seta">
+        </button>
+
+
+        <div class="backgroundImg flex flex-col mr-0 justify-between items-center md:justify-center md:mr-14">
+            <h1 class="text-5xl font-bold text-text-color md:text-[84px] 2xl:text-[120px]">Great Coffe</h1>
+            <h1 class="text-5xl text-shadow mt-4 font-bold md:text-[84px] 2xl:text-[120px]"> &ltGreat Code/&gt</h1>
+            <img class=" w-[400px] md:w-[550px] 2xl:w-[850px]" src="/img/rocket-coffee.png" alt="Logo Rocket Coffee" />
+        </div>
+    </section>
+
+    <!-- MODAL -->
+
+    <section class="w-full h-full modal hidden z-10">
+        <div id="modal-bg" class="w-full h-full bg-[#404550] top-0 absolute hidden "></div>
+        <div id="modal-box"
+            class="sm:w-[385px] sm:min-w-[0vw] min-w-[80vw] flex flex-col items-center  gap-2 -translate-y-1/2 p-6 border-button border-[1px] bg-background rounded-lg top-1/2 left-1/2 -translate-x-1/2 absolute">
+            <div class="flex justify-end w-full">
+                <img onClick="closeModal()" class="btn-close-modal cursor-pointer" src="./img/menu-buguer-close.svg"
+                    alt="">
+            </div>
+            <span class="span-modal text-2xl text-text-color font-medium ">Informe seus dados</span>
+
+            <!-- FORM -->
+            <form id="form" onSubmit="handleSubmitForm(event)"
+                class="h-[50vh] text-text-color flex flex-col text-sm justify-between items-center md:h-[40vh]" action="">
+
+
+                <input id="name" class="py-1 px-5 mt-4 border-2 border-button rounded-md bg-transparent"
+                    placeholder="Nome" type="text">
+
+                <input id="street" class="py-1 mt-3 px-5 border-2 border-button rounded-md bg-transparent md:mt-0" placeholder="Rua"
+                    type="text">
+
+                <input id="number" class="py-1 mt-3  px-5 border-2 border-button rounded-md bg-transparent md:mt-0"
+                    placeholder="Número" type="text">
+
+                <input id="complement" class="py-1 mt-3  px-5 border-2 border-button rounded-md bg-transparent md:mt-0"
+                    placeholder="Complemento" type="text">
+
+                <textarea class="py-1 text-text-color mt-3 px-5 border-2 border-button rounded-md bg-transparent md:mt-0"
+                    placeholder="Deseja acrescentar algo?"> </textarea>
+
+
+                <button
+                    class="modal-btn mt-3  px-8 py-2 text-sm border-[1px] border-button rounded-md flex items-center justify-center md:visible md:mt-0">
+                    <p class=" font-extrabold uppercase text-text-color"> Enviar </p>
+                </button>
+            </form>
+
+            <!-- CONFIRMATION -->
+
+            <div class="confirmation flex-col items-center justify-around h-[15rem] hidden">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                    class="text-[#059669] mx-auto h-11 rounded-full bg-[#D1FAE5] w-11" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M5 13l4 4L19 7" />
+                </svg>
+                <!-- <img onClick="closeModal()" class="btn-close-modal cursor-pointer" src="./img/menu-buguer-close.svg"
+                    alt=""> -->
+
+                <div class="confirmation-status flex flex-col items-center h-full justify-start">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

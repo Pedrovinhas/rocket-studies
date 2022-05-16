@@ -4,7 +4,14 @@
  <img width='1000px' src='https://efficient-sloth-d85.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F4ae14d1c-890d-4c40-8ab1-31369ba44cde%2FMacBook_Pro_16_inch.png?table=block&id=19099266-a58e-43c8-9e87-6e4fd7b22df1&spaceId=08f749ff-d06d-49a8-a488-9846e081b224&width=2000&userId=&cache=v2'>
 </div>
 
----
+<p align="center">
+  <a href="#-Objetivo">  Objetivo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Tecnologias">  Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Design">  Design </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Deploy">  Deploy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Implementações">  Implementações</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
+
 
 ## 🎉 Objetivo
 O objetivo original desse desafio é construir uma página de **coming soon** para lançamento de um site, no entanto brinquei com a funcionalidade

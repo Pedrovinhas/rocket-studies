@@ -24,6 +24,8 @@ function openModal() {
   modal.classList.toggle("hidden");
   mainSection.classList.add("opacity-20");
   header.classList.add("opacity-20");
+  modalBtn.disabled = true;
+  modalBtn.classList.remove('hover:bg-button')
 }
 
 function closeModal() {
@@ -34,6 +36,9 @@ function closeModal() {
   form.classList.remove("hidden");
   spanModal.classList.remove("hidden");
   confirmationStatus.innerHTML = "";
+  modalBtn.disabled = false;
+  modalBtn.classList.add('hover:bg-button')
+  error.classList.add('hidden')
 }
 
 const confirmationStatus = document.querySelector(".confirmation-status");

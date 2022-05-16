@@ -99,22 +99,26 @@
                 class="h-[50vh] text-text-color flex flex-col text-sm justify-between items-center md:h-[40vh]" action="">
 
 
-                <input id="name" class="py-1 px-5 mt-4 border-2 border-button rounded-md bg-transparent"
+                <input id="name"  class="py-1 px-5 mt-4 border-2 border-button rounded-md bg-transparent"
                     placeholder="Nome" type="text">
+            
 
-                <input id="street" class="py-1 mt-3 px-5 border-2 border-button rounded-md bg-transparent md:mt-0" placeholder="Rua"
+                <input id="street" class="py-1 mt-3 px-5 border-2  border-button rounded-md bg-transparent md:mt-0" placeholder="Rua"
                     type="text">
+            
 
                 <input id="number" class="py-1 mt-3  px-5 border-2 border-button rounded-md bg-transparent md:mt-0"
                     placeholder="Número" type="text">
+                
 
                 <input id="complement" class="py-1 mt-3  px-5 border-2 border-button rounded-md bg-transparent md:mt-0"
                     placeholder="Complemento" type="text">
+                
 
                 <textarea class="py-1 text-text-color mt-3 px-5 border-2 border-button rounded-md bg-transparent md:mt-0"
                     placeholder="Deseja acrescentar algo?"> </textarea>
 
-
+                    <span id="input-error" class="text-red-600 text-xs hidden font-semibold self-start mt-[-8px]"> Por favor, preencha os campos necessários </span>
                 <button
                     class="modal-btn mt-3  px-8 py-2 text-sm border-[1px] border-button rounded-md flex items-center justify-center md:visible md:mt-0">
                     <p class=" font-extrabold uppercase text-text-color"> Enviar </p>

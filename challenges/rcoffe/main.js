@@ -22,14 +22,14 @@ hamburguer.addEventListener("click", () => {
 
 function openModal() {
   modal.classList.toggle("hidden");
-  mainSection.classList.toggle("opacity-20");
-  header.classList.toggle("opacity-20");
+  mainSection.classList.add("opacity-20");
+  header.classList.add("opacity-20");
 }
 
 function closeModal() {
   modal.classList.toggle("hidden");
-  mainSection.classList.toggle("opacity-20");
-  header.classList.toggle("opacity-20");
+  mainSection.classList.remove("opacity-20");
+  header.classList.remove("opacity-20");
   confirmationPopup.classList.add("hidden");
   form.classList.remove("hidden");
   spanModal.classList.remove("hidden");
@@ -37,29 +37,43 @@ function closeModal() {
 }
 
 const confirmationStatus = document.querySelector(".confirmation-status");
+const personName = document.querySelector("#name");
+const street = document.querySelector("#street");
+const number = document.querySelector("#number");
+const complement = document.querySelector("#complement");
+
+const error = document.getElementById("input-error");
+
+const validateInputs = () => {
+  if (personName.value == "" || number.value == ""|| street.value == "" ||complement.value == "") {
+    error.classList.remove('hidden')
+  } else {
+    successfullValidation()
+  }
+}
 
 function handleSubmitForm(event) {
   event.preventDefault();
 
-  let name = document.querySelector("#name");
-  let street = document.querySelector("#street");
-  let number = document.querySelector("#number");
-  let complement = document.querySelector("#complement");
+  validateInputs()
+}
 
+function successfullValidation() {
   confirmationPopup.classList.toggle("hidden");
   form.classList.toggle("hidden");
   spanModal.classList.toggle("hidden");
+  error.classList.add('hidden')
 
   confirmationStatus.innerHTML += `
-    <h1 class="text-text-color text-center mt-4 text-xl"> Olá <span class="font-extrabold"> ${name.value}  </span> </h1>
-    <p class="text-text-color text-center mt-2"> Seu pedido saiu para entrega no endereço <strong> ${street.value}
-        </strong>, <strong>${number.value} </strong>, <strong> ${complement.value} </strong> e chegará em breve.
-    </p>
-    
-    `;
+  <h1 class="text-text-color text-center mt-4 text-xl"> Olá <span class="font-extrabold"> ${personName.value}.  </span> </h1>
+  <p class="text-text-color text-center mt-2"> Seu pedido saiu para entrega no endereço <strong> ${street.value}</strong>, <strong>${number.value} </strong>, <strong> ${complement.value} </strong> e chegará em breve.
+  </p>
+  
+  `;
 
-    name.value = ''
-    street.value = ''
-    number.value = ''
-    complement.value = ''
+  personName.value = ''
+  street.value = ''
+  number.value = ''
+  complement.value = ''
 }
+

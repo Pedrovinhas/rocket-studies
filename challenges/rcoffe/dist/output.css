@@ -488,11 +488,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   position: absolute;
 }
 
-.inset-y-0 {
-  top: 0px;
-  bottom: 0px;
-}
-
 .inset-x-0 {
   left: 0px;
   right: 0px;
@@ -510,30 +505,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   left: 50%;
 }
 
-.top-2\/4 {
-  top: 50%;
-}
-
-.right-0 {
-  right: 0px;
-}
-
-.right-14 {
-  right: 3.5rem;
-}
-
-.right-\[-14px\] {
-  right: -14px;
-}
-
-.right-\[-18px\] {
-  right: -18px;
-}
-
-.left-0 {
-  left: 0px;
-}
-
 .bottom-0 {
   bottom: 0px;
 }
@@ -542,8 +513,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   z-index: 10;
 }
 
-.z-0 {
-  z-index: 0;
+.z-20 {
+  z-index: 20;
 }
 
 .z-\[-6\] {
@@ -654,26 +625,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .-translate-x-1\/2 {
   --tw-translate-x: -50%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.rotate-180 {
-  --tw-rotate: 180deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.rotate-90 {
-  --tw-rotate: 90deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.rotate-45 {
-  --tw-rotate: 45deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.rotate-0 {
-  --tw-rotate: 0deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -835,11 +786,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 2.25rem;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -848,15 +794,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-\[2rem\] {
-  font-size: 2rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .font-medium {
@@ -989,16 +926,16 @@ Ensure the default browser behavior of the `hidden` attribute.
     position: absolute;
   }
 
-  .md\:top-0 {
-    top: 0px;
-  }
-
   .md\:bottom-0 {
     bottom: 0px;
   }
 
   .md\:left-0 {
     left: 0px;
+  }
+
+  .md\:top-0 {
+    top: 0px;
   }
 
   .md\:right-0 {
@@ -1014,20 +951,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-right: 3.5rem;
   }
 
-  .md\:mt-0 {
-    margin-top: 0px;
-  }
-
-  .md\:mt-4 {
-    margin-top: 1rem;
-  }
-
-  .md\:mt-6 {
-    margin-top: 1.5rem;
-  }
-
   .md\:mt-12 {
     margin-top: 3rem;
+  }
+
+  .md\:mt-0 {
+    margin-top: 0px;
   }
 
   .md\:block {
@@ -1104,18 +1033,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 1536px) {
-  .\32xl\:mt-4 {
-    margin-top: 1rem;
-  }
-
-  .\32xl\:mt-12 {
-    margin-top: 3rem;
-  }
-
-  .\32xl\:mt-16 {
-    margin-top: 4rem;
-  }
-
   .\32xl\:mt-20 {
     margin-top: 5rem;
   }

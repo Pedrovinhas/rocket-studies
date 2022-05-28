@@ -4,7 +4,7 @@
 
 ## Conectar
 
-| Documentação      | Status  | Conteúdo |
+| Documentação      | Status  | Anotações |
 | ---------- | :------: | ---------- |
 |📌  [Guia Estelar de programação]() | ✅  |
 |📌 [Internet, Roteadores e Servidores]() | ❌  |
@@ -18,7 +18,7 @@
 
 ### **Guias Estelares**
 
-| Documentação      | Status  | Conteúdo |
+| Documentação      | Status  | Anotações |
 | ---------- | :------: | ---------- |
 | 📌 [Guia Estelar de HTML](https://fanatical-seeker-3a5.notion.site/Guia-Estelar-de-HTML-c001d594255e4dd1b07ad384a08f1e93) | ✅ | ``Conceitos, semântica, elementos e tags de links, tabela e cabeçalho``
 | 📌 [Guia Estelar de CSS](https://fanatical-seeker-3a5.notion.site/Guia-Estelar-de-CSS-a83be0e0b1fc490cb61abd2b43a55583) | ✅  | ``Box-Model, Seletores, Anatomia, Classes, Especificidade, Shorthand, Funções``
@@ -38,7 +38,7 @@
 
 ### **Front-End**
 
-| Documentação      | Status  | Conteúdo |
+| Documentação      | Status  | Anotações |
 | ---------- | :------: | ---------- |
 |📌 [Nem tudo são Pixels]() | ✅  | ``Entendimento sobre em, rem, distâncias absolutas, relativas, %, position, functions``
 |📌 [Uma caixa dentro da outra]() | ✅ | ``Box-sizing, displays, margin, padding, border e outline`` 
@@ -51,21 +51,19 @@
 |📌 [Nem só de classes ou ID's](https://fanatical-seeker-3a5.notion.site/Nem-s-de-classes-ou-ID-s-75d2cea034c1481b9d08f7627f8fbb76) | ✅   | ``Pseudo-classes, pseudo-elements, seletores e combinadores``
 |📌 [Alinhando os Planetas](https://fanatical-seeker-3a5.notion.site/Alinhando-os-Planetas-6af04d79aeea4fdcb7c2652e070540cb) | ✅  |  ``Float, table, Flexbox, propriedades flex `` 
 |📌 [Pilotando com a DOM]() | ✅ | ``Manipulação da DOM``
-
 ### **Back-End**
 
-| Documentação      | Status  | Conteúdo |
+| Documentação      | Status  | Anotações |
 | ---------- | :------: | ---------- |
-|📌 [NodeJS]() | ❌ |  
+|📌 [NodeJS](./2-fundamentar/nodeJS/) | ✅ |  [PDF](./2-fundamentar/nodeJS/anotacoes-em-pdf/)
 |📌 [Node + EJS]() | ❌ |  
 |📌 [SQL]() | ❌ |  
 
 ## Especializar
 
-| Documentação      | Status  | Conteúdo |
+| Documentação      | Status  | Anotações |
 | ---------- | :------: | ---------- |
-|📌 [Javascript Assíncrono e Promises]() | ❌  |
+|📌 [Javascript Assíncrono e Promises]() | ✅  |
 |📌 [Trabalhando com APIs]() | ❌  |
-|📌 [Fundamentos de ReactJS]() | ❌  |
+|📌 [Fundamentos de ReactJS]() | ✅  |
 |📌 [Fundamentos do Typescript]() | ❌  |
-|📌 [Explorer]() | ❌  |

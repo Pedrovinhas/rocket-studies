@@ -43,12 +43,6 @@ body {
   }
 }
 
-@media (max-width: 2000px) {
-  html {
-    font-size: 95%;
-  }
-}
-
 .fadeIn {
   animation: fadeIn 2s;
   opacity: 1;
